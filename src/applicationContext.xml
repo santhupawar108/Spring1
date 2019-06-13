@@ -10,13 +10,16 @@
     
     <bean id="santhu" class="com.sun.Employee ">
         <!-- additional collaborators and configuration for this bean go here -->
+        <property name="Id" value="1" />
+		<property name="name" value="sant2" />
+		<property name="sal" value="5000"></property>
     </bean>
     
 
-     <bean id="pawar" class="com.sun.Project ">
+  <!--     <bean id="pawar" class="com.sun.Project "> -->
      <!--      additional collaborators and configuration for this bean go here -->
        <!--   <constructor-arg ref="myFortune" /> -->
-    </bean> 
+  <!--   </bean>  -->
 
     <!-- more bean definitions for data access objects go here -->
 

@@ -13,9 +13,10 @@ public class SpringApp {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 		Employee emp = context.getBean("santhu",Employee.class);
-		Project project = context.getBean("pawar",Project.class);
-		System.out.println(emp.getEmployee());
-		System.out.println(project.getProject());
+		
+		//Project project = context.getBean("pawar",Project.class);
+		System.out.println(emp);
+		//System.out.println(project);
 		
 		context.close();
 
